@@ -1,7 +1,58 @@
-<h1 style="text-align : center;">HTML Assignment #3</h1>
-	 <!-- Table 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment #3</title>
+    <style>
+        table {
+            border: 1px solid black;
+            margin: 20px auto;
+            width: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 1px;
+            text-align: center;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+        .green {
+            background-color: green;
+        }
+        .blue {
+            background-color: blue;
+        }
+        h1 {
+            text-align: center;
+        }
+        /* Ensuring the table in Table 2 has fixed column widths */
+        #table-2 {
+            table-layout: fixed;
+            width: 100%;
+        }
+        #table-2 td {
+            padding: 10px;
+            text-align: center;
+        }
+        /* Styling for the image inside Table 3 */
+        #t-image img {
+            max-width: 33%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HTML Assignment #3</h1>
+
+    <!-- Table 1 -->
     <table id="table-1" class="middle">
-        <tr >
+        <tr>
             <td id="t11">left</td>
             <td id="t12" class="center">center</td>
             <td id="t13" class="right">right</td>
@@ -68,17 +119,17 @@
     <!-- Table 3 -->
     <table id="table-3" class="middle">
         <tr class="green">
-			<td></td>
+            <td></td>
         </tr>
         <tr>
-            
             <td id="t-image">
-                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Description" style="max-width: 33%; height: auto;">
+                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Description">
             </td>
         </tr>
         <tr class="blue">
-        
             <td></td>
-        
         </tr>
-    </table>
+    </table>
+
+</body>
+</html>
